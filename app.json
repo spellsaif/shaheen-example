@@ -1,15 +1,14 @@
 {
   "expo": {
-    "name": "shaheen-expo-example",
+    "name": "Shaheen Mobile Studio",
     "slug": "shaheen-expo-example",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
     "android": {
+      "package": "com.anonymous.shaheenexpoexample",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,6 +19,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "shaheen"
+    ]
   }
 }
